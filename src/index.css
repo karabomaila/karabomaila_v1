@@ -12,19 +12,67 @@ code {
     monospace;
 }
 
+.navbar {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  background: #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  position: relative;
+  text-decoration: none;
+  background-color: #EB34CF;
+  font-size: 1.5rem;
+  font-weight: 700;
+  left: 3%;
+  letter-spacing: 2px;
+}
+
 .navbar ul {
   list-style-type: none;
+  text-decoration: none;
   margin: 0;
-  padding: 0;
+  margin-left: 0rem;
+  height: 100%;
+  width: 35%;
+  padding: 0rem;
   overflow: hidden;
 }
 
 .navbar li {
-  float: left;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  height: inherit;
+  width: auto;
+  transition: 0.3s linear;
 }
 
 .navbar li a {
   display: block;
   padding: 8px;
   background-color: #dddddd;
+}
+
+.navbar .link {
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: auto;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 450;
+  letter-spacing: 0.5px;
+  transition: 0.3s linear;
+}
+
+.navbar li:hover  .link {
+  background: #EB34CF;
+  color: aliceblue;
 }
