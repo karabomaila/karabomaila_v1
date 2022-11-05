@@ -72,7 +72,8 @@ code {
   transition: 0.3s linear;
 }
 
-.navbar li:hover  .link {
+.navbar li:hover  .link, .active {
   background: #EB34CF;
   color: aliceblue;
 }
+
