@@ -13,13 +13,15 @@ code {
 }
 
 .navbar {
-  position: relative;
+  position:fixed;
+  top: 0;
   height: 50px;
   width: 100%;
   background: #E5E5E5;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 999;
 }
 
 .navbar .logo {
@@ -36,7 +38,7 @@ code {
   list-style-type: none;
   text-decoration: none;
   margin: 0;
-  margin-left: 0rem;
+  margin-right: 5rem;
   height: 100%;
   width: 35%;
   padding: 0rem;
@@ -55,7 +57,6 @@ code {
 .navbar li a {
   display: block;
   padding: 8px;
-  background-color: #dddddd;
 }
 
 .navbar .link {
@@ -67,12 +68,12 @@ code {
   padding: auto;
   color: black;
   font-size: 1.2rem;
-  font-weight: 450;
+  font-weight: 550;
   letter-spacing: 0.5px;
   transition: 0.3s linear;
 }
 
-.navbar li:hover  .link, .active {
+.navbar li:hover .link, navbar li .active {
   background: #EB34CF;
   color: aliceblue;
 }
