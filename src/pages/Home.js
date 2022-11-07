@@ -17,9 +17,9 @@ const Home = () => {
                     <p>I am from Ivory Park, Johannesburg. I am currently doing my final year in 
                         computer science at Wits University. I am self-motivated, hard working 
                         and a disciplined individual. My strengths include being organised, willing
-                        to learn and punctual. I am passiotnate about software development and using 
+                        to learn and punctual. I am passionate about software development and using 
                         technology to change peoples lives. My interests are reading books, travelling,
-                        going, investing and meditation.
+                        going out, investing and meditation.
                     </p>
                     <h3>Why I want to work at  SovTech?</h3>
                     <p>
@@ -30,7 +30,7 @@ const Home = () => {
                         The company's values are aligned with my values that I hold true to. I like 
                         how their graduate programme is structured, there are many opportunities 
                         for learning and improving oneself. 
-                        They have a continuous learning culture and I want to be part of it. 
+                        They have a continuous learning culture that want to be part of it. 
                         They say if you are not learning then you are dying.  </p>
             </div>
             </div>
