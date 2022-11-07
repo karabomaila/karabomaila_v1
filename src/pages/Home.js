@@ -22,7 +22,16 @@ const Home = () => {
                         going, investing and meditation.
                     </p>
                     <h3>Why I want to work at  SovTech?</h3>
-                    <p></p>
+                    <p>
+                        I would like to work for SovTech because they provide great service to their 
+                        customers and they also support young people like me to gain experience. 
+                        I would like to be a part of it where I can learn, thrive and develop. What stands out 
+                        for me is that they invest in a culture of personal growth and improvement.
+                        The company's values are aligned with my values that I hold true to. I like 
+                        how their graduate programme is structured, there are many opportunities 
+                        for learning and improving oneself. 
+                        They have a continuous learning culture and I want to be part of it. 
+                        They say if you are not learning then you are dying.  </p>
             </div>
             </div>
         </div>
