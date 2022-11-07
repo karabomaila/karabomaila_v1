@@ -3,9 +3,9 @@
     background-position: center center;
     background-size: cover;
     position: relative;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
-    margin-top: 3rem;
+    margin-top: -1rem;
 }
 /*https://images.unsplash.com/photo-1640920205006-fdeade482d38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80*/
 
@@ -17,7 +17,7 @@
 }
 
 .home_header h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     color: #EB34CF;
     margin-left: 1rem;
     font-family: Rock Salt;
@@ -28,11 +28,31 @@
 
 .home_header img {
     position:relative;
-    bottom: 3rem;
+    bottom: 6rem;
     width: 20%;
     height: 25%;
     object-fit: cover;
     margin-left:0;
     right:-1050px;
     border-radius: 100%;
+}
+
+.home_content {
+    position: relative;
+    top: -10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.home_content p {
+    bottom: 6rem;
+    margin-left: 1rem;
+}
+
+.home_content h3 {
+    position:relative;
+    text-align: left;
+    top: 0rem;
 }

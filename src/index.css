@@ -32,6 +32,7 @@ code {
   font-weight: 700;
   left: 3%;
   letter-spacing: 2px;
+  border-radius: 50%;
 }
 
 .navbar ul {
@@ -78,3 +79,56 @@ code {
   color: aliceblue;
 }
 
+/*add same styles for the pages*/
+.about, .contact, .photography, .blogs{
+  position: relative;
+  background: #c5c0b4;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/*About Syles*/
+.about_content {
+  display: flex;
+  margin-right: 2rem;
+  position:relative;
+  top: 6rem;
+  left: 2rem;
+}
+
+.about_content p {
+  font-family: sans-serif;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+/*Contact Syles*/
+.contact h1 {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+/*Blogs Syles*/
+.blogs h1 {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+/*Photography Syles*/
+
+.photography {
+  position:relative;
+  margin-top: 0rem;
+}
+
+.photography_content h1 {
+  position:relative;
+  margin-top: 5rem;
+  text-align: center;
+}
