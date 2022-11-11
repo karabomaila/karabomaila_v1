@@ -9,7 +9,7 @@ const About = () => {
                     and a disciplined individual. My strengths include being organised, willing
                     to learn and punctual. I am passiotnate about software development and using 
                     technology to change peoples lives. My interests are reading books, travelling,
-                    going, investing and meditation.
+                    going out, investing and meditation.
                 </p>
                 <p></p>
             </div>
